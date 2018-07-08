@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- set the encoding of your site -->
+    <meta charset="utf-8">
+    <!-- set the viewport width and initial-scale on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globuzzer - World First Travelers Social Network</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="title" content="Globuzzer - World First Travelers Social Network" />
+    <meta name="description" content="Globuzzer is the World's First Travelers' Social Network , here you can share your travel stories and get a full travel information from other nomads"
+    />
+    <meta name="keywords" content="globuzzer, traveler social network, social network for travelers" />
+    <meta name="language" content="en" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta content="Globuzzer - World First Travelers Social Network" property="og:title" />
+    <meta content="Globuzzer is the World's First Travelers' Social Network , here you can share your travel stories and get a full travel information from other nomads"
+        property="og:description" />
+    <meta content="Globuzzer" property="og:site_name" />
+
+    <!-- <meta content="http://staging3.globuzzer.com/Globuzzer/images/globuzzer-home-page.jpg" property="og:image" /> -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.globuzzer.com" />
+
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="./images/screenshot-globuzzer.jpg" name="twitter:image" />
+    <meta content="Globuzzer - World First Travelers Social Network" name="twitter:title" />
+    <meta content="Globuzzer is the World's First Travelers' Social Network , here you can share your travel stories and get a full travel information from other nomads"
+        name="twitter:description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Adding Favicons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="./icons/shared/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./icons/shared/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./icons/shared/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./icons/shared/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./icons/shared/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./icons/shared/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./icons/shared/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./icons/shared/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/shared/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/shared/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/shared/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./icons/shared/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/shared/favicon-16x16.png">
+    <link rel="manifest" href="./icons/shared/manifest.json">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./icons/shared/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- include the site stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+
+    
+    
+
+
+    <!--- CLEAN STYLESHHETS -->
+    <link rel='stylesheet' href='stylesheets/base.css' />
+    <link rel='stylesheet' href='stylesheets/navigation_bar.css' />
+    <link rel='stylesheet' href='stylesheets/header.css' />
+    <link rel='stylesheet' href='stylesheets/cities_section.css' />
+    <link rel='stylesheet' href='stylesheets/featured_videos.css' />
+    <!--	<link href="stylesheets/home-test.css" rel="stylesheet"/> -->
+
+
+
+
+</head>
+
+<body>
+    <!-- HEADER START -->
+    <header>
+
+        <!-- NAV BAR START -->
+        <div class='navigation_bar_wrapper'>
+            <nav class='navigation_bar max_width'>
+                <div class="navigation_bar_logo">
+                    <svg>
+                        <use xlink:href='svg/symbol-defs.svg#logo'>
+                        </use>
+                    </svg>
+                </div>
+                <div class='burger'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class='navigation_wrapper'>
+                    <ul class="navigation">
+                        <li>
+                            <a class='active' href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#aboutus">About us</a>
+                        </li>
+                        <li>
+                            <a href="#sections">Sections</a>
+                        </li>
+                        <li>
+                            <a href="#partners">Partners</a>
+                        </li>
+                        <li>
+                            <a href="#contactus">Contact us</a>
+                        </li>
+                        <li>
+                            <a href="https://globuzzer.mn.co/sign_in">Log in</a>
+                        </li>
+                    </ul>
+                    <svg class='navigation_small_logo'>
+                        <use xlink:href='svg/symbol-defs.svg#logo'>
+                        </use>
+                    </svg>
+                </div>
+            </nav>
+        </div>
+        <!-- NAV BAR END-->
+
+        <!-- Header content -->
+        <div class="header_content">
+            <div class='header_content_maintext'>
+                <h1>
+                    <span class='orange_blink'>Connect</span> wtih your
+                    <span class='orange_blink'>trusted friend</span>
+                    <br> in
+                    <span class='orange_blink'>each city</span> you
+                    <span class='orange_blink'>move to</span>
+                </h1>
+            </div>
+            <form name="Seach" onsubmit="search(event)" method="post" target="_blank">
+                <input class="search_text_field" id="searchTxt" type="text" placeholder="Find topics, cities, members and more...">
+
+                <input class="search_btn pinkorange_button" type="submit" value="search" />
+                <svg class="icon icon-search">
+                    <use xlink:href="svg/symbol-defs.svg#icon-search"></use>
+                </svg>
+
+
+            </form>
+            <a target="_blank" href="https://globuzzer.mn.co/sign_up" class="join_us_btn pinkorange_button">JOIN US</a>
+        </div>
+
+
+        <!-- Header globbuzer infos -->
+        <ul class="globalbuzzer_infos">
+            <li>
+                <h3>15.6k
+                    <span>users</span>
+                </h3>
+            </li>
+            <li>
+                <h3>17
+                    <span>city sections</span>
+                </h3>
+            </li>
+            <li>
+                <h3>30+
+                    <span>university collaborations</span>
+                </h3>
+            </li>
+        </ul>
+
+
+    </header>
+    
+    <!-- HEADER END-->
+    <!-- CITIES-SECTION START -->
+    <section class='cities'>
+        <div class='max_width'>
+            <div class='cities_section_title'>
+                <h2 class='section_title'>City Sections</h2>
+                <div class='cities_section_form_wrapper'>
+                    <form>
+                        <input type='text' placeholder="Which city are you looking for?">
+                        <svg class="citie_search">
+                                <use xlink:href="svg/symbol-defs.svg#icon-search"></use>
+                        </svg>
+                    </form>
+                </div>
+            </div>
+            <ul class='cities_holder'>
+                <li class='status'>Loading...</li>
+            </ul>
+            <a href='#' class='see_more green_button'>SEE MORE</a>
+        </div>
+    </section>
+    <!-- CITIES-SECTION END -->
+
+    <!-- FEATURED VIDEOS START -->
+    <div class='featured_videos'>
+        <div class='max_width'>
+            <h2 class='section_title'>Featured videos</h2>
+            <div class='main_video'>
+                <div class='main_video_overlay'>
+                    <div class='main_video_controller'>
+                        <div class='controller_circle'>
+                            <div class='controller_play'></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class='videos_types'>
+                <li class='all_vides active'>ALL</li>
+                <li class='orange active'>TRAVEL</li>
+                <li class='orange'>EVENTS</li>
+                <li class='green'>TUTORIALS</li>
+                <li class='green active'>FOOD</li>
+            </ul>
+            <div class='all_videos_wrapper'>
+                <ul class='all_videos'>
+                    <li class="video_card">
+                        <div class='video_preview'></div>
+                        <div class="video_info">
+                            <p class="video_title">Spectacular tour around the world</p>
+                            <p class="video_length">1:20</p>
+                        </div>
+                    </li>
+                    <li class="video_card">
+                        <div class='video_preview'></div>
+                        <div class="video_info">
+                            <p class="video_title">Indian festival</p>
+                            <p class="video_length">1:05</p>
+                        </div>
+                    </li>
+                    <li class="video_card">
+                        <div class='video_preview'></div>
+                        <div class="video_info">
+                            <p class="video_title">Viking Line trip to Stockholm</p>
+                            <p class="video_length">2:27</p>
+                        </div>
+                    </li>
+                    <li class="video_card">
+                        <div class='video_preview'></div>
+                        <div class="video_info">
+                            <p class="video_title">Spectacular tour around the world</p>
+                            <p class="video_length">1:20</p>
+                        </div>
+                    </li>
+                    <li class="video_card">
+                        <div class='video_preview'></div>
+                        <div class="video_info">
+                            <p class="video_title">Indian festival</p>
+                            <p class="video_length">1:05</p>
+                        </div>
+                    </li>
+                    <li class="video_card">
+                        <div class='video_preview'></div>
+                        <div class="video_info">
+                            <p class="video_title">Viking Line trip to Stockholm</p>
+                            <p class="video_length">2:27</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- FEATURED VIDEOS END -->
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- <script type='text/javascript' src='js/blink_header.js'></script> -->
+    <script type='text/javascript' src='js/nav.js'></script>
+    <script type='text/javascript' src='js/populate_cities.js'></script>
+    <script type='text/javascript' src='js/search_cities.js'></script>
+</body>
+
+</html>

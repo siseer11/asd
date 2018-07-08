@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Roboto , sans-serif;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+.max_width{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.pinkorange_button{
+    transition: .1s  linear background;
+    color: white;
+    background: #F38181;
+}
+.pinkorange_button:hover{
+    background: #E85152;
+}
+
+/*section titles*/
+h2.section_title{
+    text-align: center;
+    color: #422736;
+    font-weight: 500;
+    font-size: 30px;
+}
